@@ -82,7 +82,7 @@ h1 {
 }
 
 .home {
-    margin: auto;
+
     background-image: url(../images/bg_home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,10 +93,12 @@ h1 {
 }
 
 .header {
-
+    position: relative;
     display: flex;
     padding: 50px 0;
     justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .header__nav {
@@ -156,7 +158,7 @@ h1 {
 .home__title {
     font-size: 60px;
     font-weight: 900;
-    margin: 200px 0 0 0;
+    padding: 200px 0 0 0;
 }
 
 .home__description {
